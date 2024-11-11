@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Help</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Высота вьюпорта */
+            margin: 0;
+        }
+        .main-form {
+            max-width: 400px; /* Максимальная ширина формы */
+            width: 100%; /* Ширина формы */
+            padding: 20px; /* Отступы внутри формы */
+            border: 1px solid #ccc; /* Граница формы */
+            border-radius: 5px; /* Скругление углов */
+            background-color: #f9f9f9; /* Цвет фона формы */
+        }
+    </style>
+</head>
+<body>
+
+<main class="main">
+    <div class="container">
+        <div class="header">
+            <div class="row">
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-lg-offset-4 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-0 col-xs-12">
+                    <div class="phone-block"></div>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                    <div class="wrap">
+                        <div class="wrap-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="main-content">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="main-title">
+                        <h1>Help</h1>
+                        <p class="main-subtitle">Сервис представляет собой информационную систему для фиксации технических проблем в компании</p>
+                    </div>
+                    
+                    <div class="main-form">
+                        <h2 class="main-form-header"><strong>Регистрация</strong></h2>
+                        <form action="#">
+                            <label for="#">Логин</label>
+                            <input class="main-form-input form-control" type="text" required>
+                            
+                            <label for="#">Пароль</label>
+                            <input class="main-form-input form-control" type="password" required>
+                            
+                            <label for="#">ФИО</label>
+                            <input class="main-form-input form-control" type="text" required>
+                            
+                            <label for="#">Номер телефона</label>
+                            <input class="main-form-input form-control" type="tel" required>
+                            
+                            <label for="#">Адрес электронной почты</label>
+                            <input class="main-form-input form-control" type="email" required>
+                            
+                            <button class="main-form-btn button btn btn-primary" type="submit">Оставьте заявку</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
