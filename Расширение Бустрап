@@ -1,1 +1,2 @@
 Заходим в расширение в Визуалке. Потом пишем Bootstrap 3 Snippets. Потом когда включил, пишем скрипт: bs3-template:html5. Всё
+ Либо вставить это <link  rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
